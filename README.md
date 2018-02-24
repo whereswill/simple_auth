@@ -31,6 +31,8 @@ Next, migrate the database:
 $ rails db:migrate
 ```
 
+Create an `application.yml` file in the `config` folder. Use the `env_variables_template.yml` file as a guide to set your variables
+
 Finally, run the test suite to verify that everything is working correctly:
 
 ```
